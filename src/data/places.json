@@ -1,0 +1,22 @@
+[
+    {
+        "img":"../assets/images/travel-1.jpg",
+        "alt":"Volcan Mombacho",
+        "name": "Volcan Mombacho"
+    },
+    {
+        "img":"../assets/images/travel-2.jpg",
+        "alt":"Corn Island",
+        "name": "Corn Island"
+    },
+    {
+        "img":"../assets/images/travel-3.jpg",
+        "alt":"Rio Mico, Chontales",
+        "name": "Rio Mico, Chontales"
+    },
+    {
+        "img":"../assets/images/travel-4.jpg",
+        "alt":"Parque Nacional Volcan Masaya",
+        "name": "Parque Nacional Volcan Masaya"
+    }
+]
