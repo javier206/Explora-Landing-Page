@@ -3,9 +3,9 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
-import NavbarLinks from "./Navbar/NavbarLinks"
+import NavbarLinks from "./NavLink.js"
 
-const Header = () => {
+const Navitation = () => {
   const [NavbarOpen, setNavbarOpen] = useState(false)
   return (
     <Nav>
@@ -25,11 +25,17 @@ const Header = () => {
           <NavbarLinks />
         </Navbox>
       )}
+
+      {/* <NavBtn>
+        <Button primary="true" round="true" to="/trips">
+          Book a flight
+        </Button>
+      </NavBtn> */}
     </Nav>
   )
 }
 
-export default Header
+export default Navitation
 
 const Nav = styled.nav`
   background: transparent;
@@ -41,7 +47,7 @@ const Nav = styled.nav`
   position: relative;
 `
 const NavLink = styled(Link)`
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -51,7 +57,7 @@ const NavLink = styled(Link)`
 `
 
 const Bars = styled(FaBars)`
-background-color: #fff;
+background-color: #000Navitation;
 width: 30px;
 height: 30px;
 transition: all .3s linear;
@@ -63,7 +69,7 @@ transform: ${props => (props.open ? "rotate(-90deg)" : "inherit")};
 ::after {
   width: 30px;
   height: 30px;
-  background-color: transparent;
+  background-color: #fff;
   content: "";
   position: absolute;
   transition: all 0.3s linear;
@@ -111,11 +117,11 @@ const NavToggle = styled.div`
     margin-right: 1rem;
   }
 `
-/* const NavBtn = styled.div`
+const NavBtn = styled.div`
   display: flex;
   align-items: center;
   margin-right: 24px;
   @media screen and (max-width: 768px) {
     display: none !important;
   }
-` */
+`

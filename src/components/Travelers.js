@@ -27,26 +27,25 @@ const Travelers = () => {
 
   return (
     <TravelersContainers>
-      <TopLine>Testimonials</TopLine>
-      <Description>What people are saying</Description>
+      <TopLine>Conocenos</TopLine>
+      <Description>Una app de viajeros para viajeros</Description>
       <ContentWrapper>
         <ColumnOne>
           <Testimonial>
             <IoMdCheckmarkCircleOutline css='font-size: 2rem; margin-bottom:1rem;'/>
-            <h3>Sean Michael</h3>
+            <h3>Conoce Nicaragua de una manera inmersiva</h3>
             <p>
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-              architecto quas, ipsam adipisci totam atque dicta quam! Culpa
-              cupiditate aperiam totam, a modi ipsum aliquam. Hic."
+              "Explora te mostrara una manera diferente de conocer este bello país.
+              Descubre sitios nuevos que te dejarán maravillado"
             </p>
           </Testimonial>
           <Testimonial>
             <FaRegLightbulb css='font-size: 2rem; margin-bottom:1rem;'/>
-            <h3>Sara Kin</h3>
+            <h3>Planea tu Aventura</h3>
             <p>
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-              architecto quas, ipsam adipisci totam atque dicta quam! Culpa
-              cupiditate aperiam totam, a modi ipsum aliquam. Hic."
+              "Ya seas un mochilero, turista nacional o extranjero. Explora tiene
+              tus necesidades cubiertas. Desde tu deseo de conocer algo nuevo hasta
+              las actividades que quieras realizar."
             </p>
           </Testimonial>
         </ColumnOne>

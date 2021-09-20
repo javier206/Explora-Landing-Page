@@ -1,6 +1,7 @@
+import Places from '../components/Places';
 export const menuData = [
-  { title: "About", link: "/about" },
-  { title: "Trips", link: "/trips" },
-  { title: "Careers", link: "/careers" },
-  { title: "Contact", link: "/contact" },
+  { title: "Lugares", link: `${Places}` },
+  { title: "Nosotros", link: "/Travelers" },
+  { title: "Funciones", link: "/Stats" },
+  { title: "Contacto", link: "/Email" },
 ]
